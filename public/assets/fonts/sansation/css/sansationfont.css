@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "sansation";
+    src: url('../fonts/Sansation_Regular.ttf') format('truetype'),
+    url('../fonts/Sansation_Bold.ttf') format('truetype'), /* IE6-IE8 */
+    url('../fonts/Sansation_Light.ttf') format('truetype'), /* chrome, firefox */
+    url('../fonts/Sansation_Bold_Italic.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../fonts/Sansation_Italic.ttf') format('truetype'); /* iOS 4.1- */
+    font-weight: normal;
+    font-style: normal;
+
+}
