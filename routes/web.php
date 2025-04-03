@@ -11,10 +11,6 @@ use App\Http\Controllers\ReviewController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 
-// Frontend routes
-// Route::get('/', function () {
-//     return view('frontend.welcome');
-// })->name('frontend.welcome');
 
 Route::prefix('tables/{table_no}')->group(function () {
     Route::get('/', [FrontendController::class, 'welcome'])->name('frontend.welcome');
@@ -32,7 +28,6 @@ Route::prefix('tables/{table_no}')->group(function () {
 });
 
 
-// Admin / backend routes
 // Admin / backend routes
 Route::prefix('admin')->group(function () {
 

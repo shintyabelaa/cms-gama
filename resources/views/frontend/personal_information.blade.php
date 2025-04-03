@@ -60,22 +60,7 @@
                                 ></iconify-icon>
                             </label>
                         </div>
-                        {{-- <div>
-                            <label
-                                for="email"
-                                class="form-label !tw-mb-0 tw-flex tw-gap-2"
-                            >
-                                <input
-                                    type="text"
-                                    class="form-control tw-relative tw-rounded-lg tw-border-primary tw-ps-8 tw-text-primary placeholder:tw-text-[#D9D9D9]"
-                                    id="email"
-                                    name="email"
-                                    placeholder="Email"
-                                    required
-                                />
-                                <iconify-icon icon="mi:email" class="tw-text-lg tw-text-primary tw-absolute tw-start-7"></iconify-icon>
-                            </label>
-                        </div> --}}
+                        
                         <div>
                             <label
                                 for="phone"

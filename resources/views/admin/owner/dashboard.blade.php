@@ -62,7 +62,7 @@
         </div>
         <!-- End of Row for the cards -->
 
-        <!-- Additional rows/content can go here -->
+    
 
     </div>
 @endsection
@@ -74,7 +74,7 @@
     }, 2000); // 2 seconds
 </script>
 <script>
-    // Function to format the date as "23 August 2023"
+    
     function formatDate(date) {
         const options = { day: 'numeric', month: 'long', year: 'numeric' };
         return date.toLocaleDateString('en-GB', options);

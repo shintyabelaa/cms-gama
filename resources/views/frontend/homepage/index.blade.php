@@ -23,14 +23,6 @@
                     >
                         <iconify-icon  icon="mdi:cart-outline"></iconify-icon>
                     </a>
-                    {{-- <a
-                        href="{{ route("frontend.welcome", ['table_no' => $table_no]) }}"
-                        class="tw-text-2xl tw-text-primary hover:tw-text-primary"
-                    >
-                        <iconify-icon 
-                            icon="solar:bill-list-broken"
-                        ></iconify-icon>
-                    </a> --}}
                 </div>
             </div>
             <div class="">
